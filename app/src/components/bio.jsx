@@ -9,8 +9,8 @@ const Bio = (props) => {
       <Card.Content>
         <Card.Header>{props.name}</Card.Header>
         <p>{props.description}</p>
-        <Button circular icon='github' content='Github'></Button>
-        <Button circular icon='linkedin' content='LinkedIn'></Button>
+        <Button circular icon='github' content='Github' onClick={() => location.href=props.github}></Button>
+        <Button circular icon='linkedin' content='LinkedIn' onClick={() => location.href=props.linkedin}></Button>
       </Card.Content>
     </Card>
   )

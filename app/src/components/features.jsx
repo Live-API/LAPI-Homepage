@@ -10,7 +10,7 @@ class Features extends Component {
 
   render() {
     return (
-      <Grid centered padded>
+      <Grid centered padded id='Features' >
         <Grid.Row columns={1}>
           <Grid.Column width={12}>
             <Card centered fluid>

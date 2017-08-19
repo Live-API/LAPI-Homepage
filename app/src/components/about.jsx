@@ -10,7 +10,7 @@ class About extends Component {
 
   render() {
     return (
-      <Grid centered padded id='about'>
+      <Grid centered padded id='About'>
         <Grid.Row columns={1}>
           <Container>
             <Header size='huge'>Contributors</Header>
@@ -22,6 +22,8 @@ class About extends Component {
             <Bio
               image='https://react.semantic-ui.com/assets/images/avatar/large/elliot.jpg'
               name='Melissa Schwartz'
+              github='https://github.com/melissjs/'
+              linkedin='https://www.linkedin.com/in/melissjs/'
             />
           </Grid.Column>
           <Grid.Column>
@@ -29,6 +31,8 @@ class About extends Component {
               image='https://react.semantic-ui.com/assets/images/avatar/large/elliot.jpg'
               name='Penn Wu'
               description='Ping pong warrior'
+              github='https://github.com/pennwu1/'
+              linkedin='https://www.linkedin.com/in/pennwu/'
             />
           </Grid.Column>
           <Grid.Column>
@@ -36,6 +40,8 @@ class About extends Component {
               image='https://react.semantic-ui.com/assets/images/avatar/large/elliot.jpg'
               name='Brett Beekley'
               description='Engineer, scientist, homebrewer'
+              github='https://www.github.com/beekley/'
+              linkedin='https://www.linkedin.com/in/brettbeekley/'
             />
           </Grid.Column>
         </Grid.Row>

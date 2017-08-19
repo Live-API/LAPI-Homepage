@@ -14,7 +14,7 @@ class Content extends Component {
     const { activeItem } = this.state
 
     return (
-      <Grid padded centered divided>
+      <Grid padded centered divided id='Installation'>
         <Grid.Row color='black'>
           <Header size='huge' inverted>Installation</Header>
         </Grid.Row>
@@ -23,7 +23,7 @@ class Content extends Component {
             <Container textAlign='center'>
               <Header inverted>{'Server'}</Header>
               <p>{'The LiveAPI server extracts data from the target website and can be installed in one shell command:'}</p>
-              <Code content='sudo curl -s https://raw.githubusercontent.com/ve-API/LAS/master/bin/pull.sh | bash -s'/>
+              <Code content='sudo curl -s https://raw.githubusercontent.com/Live-API/LAPI-Server/master/bin/pull.sh | bash -s'/>
             </Container>
           </Grid.Column>
           <Grid.Column width={1}><Divider inverted vertical></Divider></Grid.Column>
