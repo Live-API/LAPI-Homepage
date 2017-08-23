@@ -27,8 +27,9 @@ class About extends Component {
         <Grid.Row columns={3}>
           <Grid.Column>
             <Bio
-              image='https://react.semantic-ui.com/assets/images/avatar/large/elliot.jpg'
+              image='/static/img/ms.jpg'
               name='Melissa Schwartz'
+              description='Vegan Fullstack Engineer'
               github='https://github.com/melissjs/'
               linkedin='https://www.linkedin.com/in/melissjs/'
             />
@@ -37,7 +38,7 @@ class About extends Component {
             <Bio
               image='/static/img/pw.png'
               name='Penn Wu'
-              description='Ping pong warrior'
+              description='Data Enthusiast'
               github='https://github.com/pennwu1/'
               linkedin='https://www.linkedin.com/in/pennwu/'
             />
@@ -46,7 +47,7 @@ class About extends Component {
             <Bio
               image='/static/img/bb.jpg'
               name='Brett Beekley'
-              description='Engineer, scientist, homebrewer'
+              description='Engineer, Scientist, Homebrewer'
               github='https://www.github.com/beekley/'
               linkedin='https://www.linkedin.com/in/brettbeekley/'
             />
