@@ -11,7 +11,8 @@ class Content extends Component {
   }
 
   render() {
-    const { activeItem } = this.state
+    const { activeItem } = this.state;
+    const chromeExtensionUrl = 'https://chrome.google.com/webstore/detail/liveapi/okbjjnhfifjpggnjkjopeidfaciphkdf';
 
     return (
       <Grid padded centered divided id='Installation'>
@@ -32,7 +33,7 @@ class Content extends Component {
             <Container textAlign='center'>
               <Header inverted>{'Chrome Extension'}</Header>
               <p>{'The LiveAPI Chrome Extension provides an interface for selecting data from a webpage to extract, and can be installed from the Chrome Store:'}</p>
-              <Button content='Download Chrome Extension' icon='chrome' size='huge'></Button>
+              <Button content='Download Chrome Extension' icon='chrome' size='huge' onClick={() => location.href=chromeExtensionUrl}></Button>
             </Container>
           </Grid.Column>
         </Grid.Row>
