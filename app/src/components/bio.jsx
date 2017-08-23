@@ -3,6 +3,7 @@ import { render } from 'react-dom';
 import { Card, Header, Image, Button } from 'semantic-ui-react';
 
 const Bio = (props) => {
+
   return (
     <Card centered className='feature'>
       <Image src={props.image}/>

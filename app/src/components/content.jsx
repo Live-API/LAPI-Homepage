@@ -17,6 +17,7 @@ class Content extends Component {
       <Grid padded centered divided id='Installation'>
         <Grid.Row color='black'>
           <Header size='huge' inverted>Installation</Header>
+          <p>{'LiveAPI is a developer tool to turn any website\u2019s public data into an API in a few minutes. LiveAPI has two parts: a Chrome Extension to select data to extract and a user-hostable server that extracts data and serves up the user-created API endpoints.'}</p>
         </Grid.Row>
         <Grid.Row  columns={2} color='black'>
           <Grid.Column width={7}>
