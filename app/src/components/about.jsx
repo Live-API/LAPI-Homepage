@@ -29,7 +29,7 @@ class About extends Component {
             <Bio
               image='/static/img/ms.jpg'
               name='Melissa Schwartz'
-              description='Vegan Fullstack Engineer'
+              description='Animal Rights Activist, Engineer'
               github='https://github.com/melissjs/'
               linkedin='https://www.linkedin.com/in/melissjs/'
             />

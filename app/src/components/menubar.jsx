@@ -22,6 +22,7 @@ class Menubar extends Component {
           <Menu.Item name='Features' active={activeItem === 'Features'} onClick={this.handleItemClick} />
           <Menu.Item name='Installation' active={activeItem === 'Installation'} onClick={this.handleItemClick} />
           <Menu.Item name='About' active={activeItem === 'About'} onClick={this.handleItemClick} />
+          <Menu.Item name='Getting Started' onClick={() => location.href='https://medium.com/@brett.beekley/using-liveapi-part-1-installation-ba1aa13bc73b'} />
           <Menu.Item name='github' icon='github' position='right' link onClick={() => location.href='https://github.com/live-api/'} />
         </Menu>
       </Segment>

@@ -14,7 +14,7 @@ class Features extends Component {
         <Grid.Row columns={1}>
           <Grid.Column width={12}>
             <Card centered fluid>
-              <Image src='/static/img/screenshot.png' />
+              <Image src='/static/img/screenshot.jpg' />
             </Card>
           </Grid.Column>
         </Grid.Row>
